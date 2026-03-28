@@ -19,3 +19,7 @@ bucket_name = "echo-business-assets"
 [vars]
 CORS_ORIGIN = "https://echo-ept.com"
 FIREBASE_PROJECT_ID = "echo-prime-ai"
+
+[[analytics_engine_datasets]]
+binding = "ANALYTICS"
+dataset = "echo_metrics"
